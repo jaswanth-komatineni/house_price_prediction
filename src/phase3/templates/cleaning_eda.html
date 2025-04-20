@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning & EDA</title>
+    <style>
+        body {
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Add position relative */
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white overlay */
+    border-radius: 8px; /* Ensure overlay follows container's border radius */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+    padding: 0;
+    line-height: 1;
+    position: relative; /* Add position relative */
+    z-index: 1; /* Ensure title is above background overlay */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+#edaImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin to separate from the form */
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Cleaning & EDA</h1>
+    <form id="uploadForm" action="/clean_dataset" method="post" enctype="multipart/form-data">
+        <!-- File upload input -->
+        <input type="file" id="fileInput" name="file" accept=".csv, .xlsx">
+        <button type="submit">Clean Dataset</button>
+    </form>
+    <br><br>
+
+    <label for="edaStep">Choose EDA Step:</label>
+    <select name="edaStep" id="edaStep">
+        <option value="Step 1">Step 1</option>
+        <option value="Step 2">Step 2</option>
+        <option value="Step 3">Step 3</option>
+        <option value="Step 4">Step 4</option>
+        <option value="Step 5">Step 5</option>
+        <option value="Step 6">Step 6</option>
+        <option value="Step 7">Step 7</option>
+        <option value="Step 8">Step 8</option>
+        <option value="Step 9">Step 9</option>
+        <option value="Step 10">Step 10</option>
+    </select>
+    <button id="performEdaBtn" type="submit">Perform EDA</button>
+
+    <br><br>
+    <!-- Image display area -->
+    <div id="edaImage">
+        <!-- The generated image will be displayed here -->
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            var formData = new FormData(this); // Create FormData object
+            fetch('/clean_dataset', { // Send POST request to Flask route
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json()) // Parse JSON response
+            .then(data => alert(data.message)) // Display response message
+            .catch(error => console.error('Error:', error)); // Log any errors
+        });
+
+        document.getElementById('performEdaBtn').addEventListener('click', function() {
+            var selectedStep = document.getElementById('edaStep').value;
+            var requestData = { edaStep: selectedStep };
+            fetch('/perform_eda', { // Send POST request to Flask route
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(requestData) // Send selected EDA step as JSON data
+            })
+            .then(response => response.json()) // Parse JSON response
+            .then(data => {
+                alert(data.message); // Display response message
+                // Display the generated image
+                document.getElementById('edaImage').innerHTML = `<img src="${data.image_path}" alt="EDA Plot">`;
+            })
+            .catch(error => console.error('Error:', error)); // Log any errors
+        });
+
+    </script>
+
+</div>
+</body>
+</html>

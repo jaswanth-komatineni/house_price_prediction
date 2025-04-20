@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file) }}"/>
+</head>
+<body>
+    <div class="title-container">
+        <center><h1>Know your Home Value</h1></center>
+    </div>
+    <form id="prediction-form">
+        <label for="NUM_OF_BEDROOMS">Number of Bedrooms (1-9):</label>
+        <input type="number" id="NUM_OF_BEDROOMS" name="NUM_OF_BEDROOMS" placeholder="Enter the number of bedrooms" min="1" max="9" required>
+
+        <label for="NUM_OF_BATHROOMS">Number of Bathrooms (1-8):</label>
+        <input type="number" id="NUM_OF_BATHROOMS" name="NUM_OF_BATHROOMS" placeholder="Enter the number of bathrooms" min="1" max="8" required>
+
+        <label for="LIVING_AREA_sqft">Living Area (500-6000 sqft):</label>
+        <input type="number" id="LIVING_AREA_sqft" name="LIVING_AREA_sqft" placeholder="Enter the living area in square feet" min="500" max="6000" required>
+
+        <label for="LOT_AREA_sqft">Lot Area (500-20000 sqft):</label>
+        <input type="number" id="LOT_AREA_sqft" name="LOT_AREA_sqft" placeholder="Enter the lot area in square feet" min="500" max="20000" required>
+
+        <label for="FLOORS">Number of Floors (1-4):</label>
+        <input type="number" id="FLOORS" name="FLOORS" placeholder="Enter the number of floors" min="1" max="4" required>
+
+        <label for="WATER_FRONT">Water Front:</label>
+        <label><input type="radio" name="WATER_FRONT" value="1" required> Yes</label>
+        <label><input type="radio" name="WATER_FRONT" value="0"> No</label>
+
+        <label for="AGE_OF_HOUSE">Age of the House:</label>
+        <input type="number" id="AGE_OF_HOUSE" name="AGE_OF_HOUSE" min="1" max="125" required>
+
+
+        <label>View Rating:</label>
+        <div class="rating" id="view-rating">
+            <span data-rating="5">&#9733;</span>
+            <span data-rating="4">&#9733;</span>
+            <span data-rating="3">&#9733;</span>
+            <span data-rating="2">&#9733;</span>
+            <span data-rating="1">&#9733;</span>
+        </div>
+
+        <label>Condition Rating:</label>
+        <div class="rating" id="condition-rating">
+            <span data-rating="5">&#9733;</span>
+            <span data-rating="4">&#9733;</span>
+            <span data-rating="3">&#9733;</span>
+            <span data-rating="2">&#9733;</span>
+            <span data-rating="1">&#9733;</span>
+        </div>
+
+        <label for="ABOVE_BASEMENT_sqft">Above Basement Area (1000-7000 sqft):</label>
+        <input type="number" id="ABOVE_BASEMENT_sqft" name="ABOVE_BASEMENT_sqft" placeholder="Enter the above basement area in square feet" min="1000" max="7000" required>
+
+        <label for="BASEMENT_sqft">Basement Area (0-2000 sqft):</label>
+        <input type="number" id="BASEMENT_sqft" name="BASEMENT_sqft" placeholder="Enter the basement area in square feet" min="0" max="2000" required>
+
+
+        <label for="CITY">City:</label>
+        <select id="CITY" name="CITY" required>
+            <option value="" disabled selected>Select a city</option>
+            <option value="Shoreline">Shoreline</option>
+            <option value="Kent">Kent</option>
+            <option value="Bellevue">Bellevue</option>
+            <option value="Redmond">Redmond</option>
+            <option value="Seattle">Seattle</option>
+            <option value="LakeForestPark">Lake Forest Park</option>
+            <option value="Sammamish">Sammamish</option>
+            <option value="Auburn">Auburn</option>
+            <option value="DesMoines">Des Moines</option>
+            <option value="NorthBend">North Bend</option>
+            <option value="Bothell">Bothell</option>
+            <option value="FederalWay">Federal Way</option>
+            <option value="Kirkland">Kirkland</option>
+            <option value="NormandyPark">Normandy Park</option>
+            <option value="FallCity">Fall City</option>
+            <option value="Renton">Renton</option>
+            <option value="Woodinville">Woodinville</option>
+            <option value="Snoqualmie">Snoqualmie</option>
+            <option value="Issaquah">Issaquah</option>
+            <option value="MapleValley">Maple Valley</option>
+            <option value="Duvall">Duvall</option>
+            <option value="Burien">Burien</option>
+            <option value="Covington">Covington</option>
+            <option value="InglewoodFinnHill">Inglewood-Finn Hill</option>
+            <option value="Carnation">Carnation</option>
+            <option value="Kenmore">Kenmore</option>
+            <option value="Newcastle">Newcastle</option>
+            <option value="BlackDiamond">Black Diamond</option>
+            <option value="ClydeHill">Clyde Hill</option>
+            <option value="MercerIsland">Mercer Island</option>
+            <option value="Algona">Algona</option>
+            <option value="Skykomish">Skykomish</option>
+            <option value="Tukwila">Tukwila</option>
+            <option value="Vashon">Vashon</option>
+            <option value="SeaTac">SeaTac</option>
+            <option value="Enumclaw">Enumclaw</option>
+            <option value="SnoqualmiePass">Snoqualmie Pass</option>
+            <option value="Pacific">Pacific</option>
+            <option value="Ravensdale">Ravensdale</option>
+            <option value="BeauxArtsVillage">Beaux Arts Village</option>
+            <option value="Preston">Preston</option>
+            <option value="Milton">Milton</option>
+            <option value="Medina">Medina</option>
+            <option value="YarrowPoint">Yarrow Point</option>
+        </select>
+
+        <label for="ZIP">Zip Code:</label>
+        <input type="text" id="ZIP" name="ZIP" readonly>
+        <center>
+            <button type="submit">Predict Price</button>
+        </center>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

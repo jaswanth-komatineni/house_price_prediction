@@ -1,0 +1,103 @@
+body {
+    font-family: Cambria, serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    width: 100%;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
+.navbar button {
+    font-family: Cambria, serif;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px; /* Add margin to the right of each button */
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+        .navbar button:hover {
+            background-color: white;
+        }
+.title-container {
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from the navigation bar */
+}
+
+    .title-container h1 {
+        margin-top: 0;
+        color: #333;
+        font-family: Cambria, serif; /* Cambria font for title */
+        font-size: 35px; /* Adjust font size as needed */
+        line-height: 1.5;
+    }
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 40px; /* Add padding to the top */
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+    font-family: Cambria, serif; /* Cambria font for title */
+}
+
+p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Garamond, serif;
+    text-align: justify;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-height: 400px; /* Set maximum height for the image */
+    }
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Push the footer to the bottom */
+}

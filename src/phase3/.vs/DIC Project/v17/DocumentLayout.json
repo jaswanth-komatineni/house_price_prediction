@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\cleaning_eda.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\cleaning_eda.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\prediction.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\prediction.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\prediction.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\prediction.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_10.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_10.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_9.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_9.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_5.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_5.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_6.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_6.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_8.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_8.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_7.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eda_step_7.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\clean_dataset.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:clean_dataset.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\index.css",
+              "RelativeDocumentMoniker": "static\\index.css",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\index.css",
+              "RelativeToolTip": "static\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-02T14:28:37.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\app.py",
+              "RelativeDocumentMoniker": "app.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\app.py",
+              "RelativeToolTip": "app.py",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-01T02:21:47.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\index.html",
+              "RelativeDocumentMoniker": "templates\\index.html",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\index.html",
+              "RelativeToolTip": "templates\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-01T02:21:41.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\script.js",
+              "RelativeDocumentMoniker": "static\\script.js",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\script.js",
+              "RelativeToolTip": "static\\script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-02T14:30:29.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "prediction.css",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\prediction.css",
+              "RelativeDocumentMoniker": "static\\prediction.css",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\static\\prediction.css",
+              "RelativeToolTip": "static\\prediction.css",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-02T14:28:44.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cleaning_eda.html",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\cleaning_eda.html",
+              "RelativeDocumentMoniker": "templates\\cleaning_eda.html",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\cleaning_eda.html",
+              "RelativeToolTip": "templates\\cleaning_eda.html",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAGsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-02T18:47:59.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "prediction.html",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\prediction.html",
+              "RelativeDocumentMoniker": "templates\\prediction.html",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\templates\\prediction.html",
+              "RelativeToolTip": "templates\\prediction.html",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAHAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-01T02:21:44.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "eda_step_2.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_2.py",
+              "RelativeDocumentMoniker": "eda_step_2.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_2.py",
+              "RelativeToolTip": "eda_step_2.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T21:38:14.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "eda_step_10.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_10.py",
+              "RelativeDocumentMoniker": "eda_step_10.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_10.py",
+              "RelativeToolTip": "eda_step_10.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:31:03.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "eda_step_9.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_9.py",
+              "RelativeDocumentMoniker": "eda_step_9.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_9.py",
+              "RelativeToolTip": "eda_step_9.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:30:52.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "eda_step_1.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_1.py",
+              "RelativeDocumentMoniker": "eda_step_1.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_1.py",
+              "RelativeToolTip": "eda_step_1.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T21:06:52.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "eda_step_3.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_3.py",
+              "RelativeDocumentMoniker": "eda_step_3.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_3.py",
+              "RelativeToolTip": "eda_step_3.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:04:26.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "eda_step_4.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_4.py",
+              "RelativeDocumentMoniker": "eda_step_4.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_4.py",
+              "RelativeToolTip": "eda_step_4.py",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:04:38.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "eda_step_5.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_5.py",
+              "RelativeDocumentMoniker": "eda_step_5.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_5.py",
+              "RelativeToolTip": "eda_step_5.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:04:49.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "eda_step_6.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_6.py",
+              "RelativeDocumentMoniker": "eda_step_6.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_6.py",
+              "RelativeToolTip": "eda_step_6.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:05:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "eda_step_8.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_8.py",
+              "RelativeDocumentMoniker": "eda_step_8.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_8.py",
+              "RelativeToolTip": "eda_step_8.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:28:02.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "eda_step_7.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_7.py",
+              "RelativeDocumentMoniker": "eda_step_7.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\eda_step_7.py",
+              "RelativeToolTip": "eda_step_7.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T22:26:30.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "clean_dataset.py",
+              "DocumentMoniker": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\clean_dataset.py",
+              "RelativeDocumentMoniker": "clean_dataset.py",
+              "ToolTip": "C:\\Users\\Satvik Jonnalagadda\\Desktop\\DIC Project\\clean_dataset.py",
+              "RelativeToolTip": "clean_dataset.py",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-02T20:44:42.937Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
